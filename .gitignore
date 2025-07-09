@@ -4,3 +4,5 @@ index1.py
 news_faiss.index
 news_metadata.pkl
 env
+Fake.csv
+True.csv
