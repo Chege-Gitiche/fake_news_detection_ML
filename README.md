@@ -1,4 +1,4 @@
-# 📰 Fake News Detection Web App (RAG + GPT-4o-mini)
+# 📰 Fake News Detection Web App (RAG + OpenAI)
 [![MIT License][mit-shield]][mit]
 
 This is a Flask-based web application that detects whether a news article is **real or fake** using a combination of:
@@ -80,30 +80,34 @@ git clone https://github.com/yourusername/fake-news-detector.git
 cd fake-news-detector
 ```
 
-    Note:You can clone the repo in the directory of your choosing
+Note:You can clone the repo in the directory of your choosing
 #### 2. **Create and Activate a Virtual Environment**:
 
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 
-    Note:You must be within the directory of the project
+Note:You must be within the directory of the project
 #### 3. **Install Dependencies**:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
     
-    Note:If you do not have the requirements.txt file you can use the following command
+Note:If you do not have the requirements.txt file you can use the following command
     
-    ```bash
-    pip install flask python-dotenv faiss-cpu pandas tqdm \
-    sentence-transformers newspaper3k   langchain langchain-openai openai
-    ```
+```bash
+ pip install flask python-dotenv faiss-cpu pandas tqdm \
+sentence-transformers newspaper3k   langchain langchain-openai openai
+```
 #### 4. **Download datasets from the kaggle website**
 Download the zip folder from the website I send the link of then extract the .csv files and finally add the files after extraction to the working repository.
+
+
+https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset/data
+
 
 #### 5. **Create the .env File for important details**
 
